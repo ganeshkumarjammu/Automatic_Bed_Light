@@ -1,3 +1,8 @@
+//                       ====>    Automatic Bed Light    <====
+//                                                                      |------>GND
+//                                                                      | 
+//use 10k resistor to connect to LDR ||  5v Arduino UNO ---> 10k ---> LDR --> Arduino UNO A0  
+//                                        LEDpin Arduino ----> LED+ve ---LED-ve ---> GND
 const int ledPin = 13; //the code will flash the LED connected to pin 13
 const int sensorPin = 0; //Sensor pin connects to analog pin A0
 
